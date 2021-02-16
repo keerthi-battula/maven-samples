@@ -205,15 +205,7 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-<distributionManagement>
-    <repository>
-        <uniqueVersion>false</uniqueVersion>
-        <id>corp1</id>
-        <name>Corporate Repository</name>
-        <url>file:///home/myfolder/.m2</url>
-        <layout>default</layout>
-    </repository>
-</distributionManagement>
+
   <scm>
     <connection>scm:git:git@github.com:gabrielf/maven-samples.git</connection>
     <developerConnection>scm:git:git@github.com:gabrielf/maven-samples.git</developerConnection>
